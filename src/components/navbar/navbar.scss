@@ -1,0 +1,55 @@
+@import "../../app.scss";
+
+.navbar {
+  height: 100px;
+
+  .wrapper {
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%; 
+    margin-left: 100px;
+
+    @include mobile {
+      justify-content: flex-end;
+      padding: 20px;
+    }
+
+    span {
+      font-weight: bold;
+
+      @include mobile {
+        display: none;
+      }
+    }
+
+   
+    .social {
+      display: flex;
+      gap: 20px;
+      
+      img {
+        width: 35px;
+        height: 35px;
+        animation: _shine_1e3ua_1 1s ease-in-out infinite;
+    }
+    
+    @keyframes _shine_1e3ua_1 {
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.5;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    
+
+     
+    }
+  }
+}
