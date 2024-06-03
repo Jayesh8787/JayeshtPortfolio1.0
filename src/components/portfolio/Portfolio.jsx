@@ -15,11 +15,11 @@ const items = [
   {
     id: 2,
     title: "Portfolio 1.0",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    img: "/portfolio.gif",
     desc: "Created a dynamic portfolio using React JS to showcase my skills and projects. The portfolio features seamless navigation with React Router, ensuring a smooth user experience. I designed a sleek and modern interface. The project is a concise representation of my proficiency in React JS, highlighting my skills, projects, and achievements for an engaging presentation.",
     tech:"#ReactJs     #HTML  #CSS   #JavaScript",
-    demo:"",
-    github:" ",
+    demo:"https://jayeshkardile.netlify.app/",
+    github:"https://jayeshkardile.netlify.app/",
   },
   {
     id: 3,

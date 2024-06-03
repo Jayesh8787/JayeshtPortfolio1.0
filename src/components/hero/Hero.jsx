@@ -83,14 +83,14 @@ const Hero = () => {
           />
         </motion.div>
       </div>
-      {/* <motion.div
+      <motion.div
         className="slidingTextContainer"
         variants={sliderVariants}
         // initial="initial"
         animate="animate"
       >
         Web Developer | Software Engineer | Freelancer
-      </motion.div> */}
+      </motion.div>
       <div className="model-container">
         <model-viewer
           src="/comuter.glb"
