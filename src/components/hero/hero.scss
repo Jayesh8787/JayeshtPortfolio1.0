@@ -57,6 +57,19 @@
       img {
         width: 50px;
       }
+
+      @media (max-width: 600px) {
+        .buttons button {
+            padding: 10px; 
+            border-radius: 5px;
+            margin-right: 10px;
+            font-size: 14px; 
+        }
+    
+        img {
+            width: 30px; 
+        }
+    }
     }
   }
 
@@ -92,6 +105,13 @@
     font-weight: bold;
     background: transparent;
   }
+  @media (max-width: 600px) {
+    .slidingTextContainer {
+        font-size: 15vh; 
+        width: 100%;
+        bottom: -60px; 
+    }
+}
 
   .model-container {
     width: 50vw;
@@ -109,7 +129,7 @@
   @media (max-width: 768px) {
     .model-container {
       width: 100vw;
-      height: 70vh;
+      height: 58vh;
       bottom: 0;
       top: auto; 
     }

@@ -60,18 +60,25 @@
           height: 100%;
           object-fit: cover;
           box-sizing: border-box;
-          border-width: 2px; /* Setting border width to 2 pixels */
+          border-width: 2px; 
           border-style: solid;
-          background: linear-gradient(to top, #2f80ed, #56ccf2);
+          background:linear-gradient(to top, #2f80ed, #56ccf2);
+          //border-color: 
           -webkit-background-clip:border-box;
           -webkit-text-fill-color: transparent;
-          background-clip:border-box; /* Standard syntax, for some browsers that don't use the prefix */
+          background-clip:border-box; 
           color: transparent; 
 
           @include mobile {
             object-fit: contain;
           }
         }
+
+
+      
+
+
+
       }
 
       .textContainer {
@@ -99,8 +106,8 @@
           background: linear-gradient(to top, #2f80ed, #56ccf2);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
-          background-clip: text; /* Standard syntax, for some browsers that don't use the prefix */
-          color: transparent; /* Fallback for browsers that don't support background-clip */
+          background-clip: text; 
+          color: transparent; 
       }
       
 

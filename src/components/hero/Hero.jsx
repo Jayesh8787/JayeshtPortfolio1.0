@@ -60,7 +60,7 @@ const Hero = () => {
             Web and Java developer
           </motion.h1>
           
-          <motion.div variants={textVariants} className="buttons">
+        <motion.div variants={textVariants} className="buttons">
            
            
           <motion.a
@@ -82,7 +82,7 @@ const Hero = () => {
             </button>
             </motion.a>))}
 
-          </motion.div>
+        </motion.div>
 
           <motion.img
             variants={textVariants}
