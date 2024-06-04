@@ -65,7 +65,8 @@ const Single = ({ item }) => {
             </a>
             <a href={item.github}>
               <button id="a1">Source Code</button>
-            </a></div>
+            </a>
+            </div>
           </motion.div>
         </div>
       </div>

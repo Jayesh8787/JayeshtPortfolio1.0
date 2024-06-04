@@ -56,6 +56,18 @@
       position: absolute;
       margin: auto;
       z-index: -1;
+
+      
+      
+    }
+    .Svg{
+      width:450px;
+       height:450px;
+      @include mobile {
+        width: 100%;
+        height: auto;
+      }
+      
     }
 
     form {
