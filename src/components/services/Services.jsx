@@ -42,7 +42,7 @@ const Services = () => {
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-        <h3>My</h3>
+        <h3 style={{marginTop:"15px"}}>My</h3>
         </div>
         <div className="title">
           {/* <img src="/people.webp" alt="" /> */}
@@ -52,7 +52,7 @@ const Services = () => {
           </h1>
         </div>
         <div className="title">
-         <p style={{width:"700px", textAlign:"center"}}>Aspiring Full-Stack Developer with a strong foundation in both front-end and back-end technologies.
+         <p >Aspiring Full-Stack Developer with a strong foundation in both front-end and back-end technologies.
            Proficient in JavaScript, ReactJS, Node.js, and Redux for building dynamic and responsive web applications. 
            Gained hands-on experience developing RESTful APIs using Express and integrating them with MongoDB and MySQL 
            databases through academic projects and internships. Familiar with Java and Spring Boot for enterprise-level 

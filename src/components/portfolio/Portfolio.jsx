@@ -5,7 +5,7 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "Pathology lab Management System",
+    title: "Pathology Lab Management System",
     img: "/pathlab.gif",
     desc: "Developed and implemented a streamlined Pathology Lab Management System focused on test booking, appointment scheduling, and digital report delivery..",
     tech:"#ReactJs  #Java   #SpringBoot  #Mysql  #Redux      #NodeJs",
@@ -19,7 +19,7 @@ const items = [
     desc: "Created a dynamic portfolio using React JS to showcase my skills and projects. The portfolio features seamless navigation with React Router, ensuring a smooth user experience. I designed a sleek and modern interface. The project is a concise representation of my proficiency in React JS, highlighting my skills, projects, and achievements for an engaging presentation.",
     tech:"#ReactJs     #HTML  #CSS   #JavaScript",
     demo:"https://jayeshkardile.netlify.app/",
-    github:"https://jayeshkardile.netlify.app/",
+    github:"https://github.com/Jayesh8787",
   },
   {
     id: 3,
@@ -63,8 +63,8 @@ const Single = ({ item }) => {
            <div> <a href={item.demo}>
               <button>See Demo</button>
             </a>
-            <a href={item.tech} style={{marginLeft:"170px"}}>
-              <button>Source Code</button>
+            <a href={item.github}>
+              <button id="a1">Source Code</button>
             </a></div>
           </motion.div>
         </div>

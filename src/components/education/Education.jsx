@@ -7,19 +7,19 @@ const items = [
     id: 1,
     title: "Centre for Development of Advanced Computing (C-DAC)",
     img: "https://as2.ftcdn.net/v2/jpg/07/41/46/99/1000_F_741469989_fD4dIwcVNFJ9DVqoWcFdZvUj4FYuYFrP.jpg",
-    desc: "Sept-2023 To Feb-2024   Specialization-PG-DAC     Skill:Java,springBoot,Javascript,Reactjs,Nodejs,Mysql,.Netcore,C#,MongoDb,Html,Css" ,
+    desc: "Sept-2023 To Feb-2024  , Specialization:- PG-DAC" ,
   },
   {
     id: 2,
     title: "ADSUL TECHNICAL CAMPUS FACULTY OF MBA, AHMEDNAGAR",
     img: "https://as1.ftcdn.net/v2/jpg/05/92/03/18/1000_F_592031814_btPCnkAJXUzN3VvKzTYM30Lnq3ohhuzu.jpg",
-    desc: "    Jun 2017 -May 2020  Bachelor's degree in Civil Engineering",
+    desc: "    Jun 2017 -May 2020 , Bachelor's degree in Civil Engineering",
   },
   {
     id: 3,
     title: "Sanjivani College of Engineering,Kopargaon",
     img: "https://as1.ftcdn.net/v2/jpg/02/88/66/48/1000_F_288664870_SZClsbLdgfjwiQJ00ekGiRZ5CkXtzHTH.jpg",
-    desc: "    Aug 2014 - May 2017 Diploma in Civil Engineering",
+    desc: "    Aug 2014 - May 2017 , Diploma in Civil Engineering",
   },
  
 ];

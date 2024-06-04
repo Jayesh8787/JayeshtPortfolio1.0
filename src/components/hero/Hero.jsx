@@ -61,10 +61,19 @@ const Hero = () => {
           </motion.h1>
           
           <motion.div variants={textVariants} className="buttons">
+           
+           
+          <motion.a
+              href="/Jayesh_Kardile_Resume.pdf"  
+              download="Jayesh_Kardile_Resume.pdf"  
+              variants={textVariants}
+              whileHover="hover"
+              whileTap="tap"
+            >
             <motion.button variants={textVariants}>
               Resume Download
             </motion.button>
-
+          </motion.a>
             {items1.map((item) => (
             <motion.a  href={`#${item}`} 
             key={item}>

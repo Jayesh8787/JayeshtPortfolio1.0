@@ -121,6 +121,14 @@
           width: 200px;
           cursor: pointer;
         }
+        #a1 {
+          margin-Left:170px
+        }
+        @media (max-width: 600px) {
+          #a1 {
+            margin-left: 45px; 
+          }
+        }
       }
     }
   }

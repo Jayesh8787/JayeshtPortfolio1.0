@@ -77,6 +77,15 @@
           font-size: 36px;
         }
       }
+      p{
+        width:700px;
+        text-Align:center;
+      }
+      @media (max-width: 600px) {
+        p {
+            width: 100%; 
+            padding: 0 10px;         }
+    }
 
       button {
         width: 300px;
