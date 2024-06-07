@@ -40,7 +40,7 @@
           font-size: 36px;
         }
       }
-
+    }
       .buttons {
         button {
           padding: 20px;
@@ -51,25 +51,24 @@
           margin-right: 20px;
           cursor: pointer;
           font-weight: 300;
-        }
-      }
 
-      img {
-        width: 50px;
-      }
-
-      @media (max-width: 600px) {
-        .buttons button {
+          @include mobile {
             padding: 10px; 
             border-radius: 5px;
             margin-right: 10px;
             font-size: 14px; 
         }
-    
-        img {
-            width: 30px; 
-        }
-    }
+      }
+
+      img {
+        width: 50px;
+
+        @include mobile {
+         width: 30px; }
+
+      }
+
+     
     }
   }
 
@@ -104,14 +103,13 @@
     width: 50%;
     font-weight: bold;
     background: transparent;
-  }
-  @media (max-width: 600px) {
-    .slidingTextContainer {
-        font-size: 15vh; 
-        width: 100%;
-        bottom: -60px; 
+    @include mobile{
+      font-size: 15vh; 
+      width: 100%;
+      bottom: -60px;
     }
-}
+  }
+ 
 
   .model-container {
     width: 50vw;
@@ -122,16 +120,14 @@
     top: 0;
     right: 0;
     padding-bottom: 100px;
-   
-
-  }
-
-  @media (max-width: 768px) {
-    .model-container {
+    @include mobile{
       width: 100vw;
       height: 58vh;
       bottom: 0;
       top: auto; 
     }
+   
+
   }
+
 }

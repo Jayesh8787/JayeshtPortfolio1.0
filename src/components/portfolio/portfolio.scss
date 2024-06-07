@@ -53,6 +53,7 @@
         @include mobile {
           width: 100%;
           max-height: 300px;
+          //width: 100%;
         }
 
         img {
@@ -71,6 +72,8 @@
 
           @include mobile {
             object-fit: contain;
+            height: 300px;
+            weight:300px;
           }
         }
 
@@ -136,10 +139,7 @@
 
           }
         }
-        // @media (max-width: 600px) {
-        //   #a1 {
-        //   }
-        // }
+       
       }
     }
   }

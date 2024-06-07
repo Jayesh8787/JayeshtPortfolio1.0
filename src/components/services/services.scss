@@ -80,12 +80,12 @@
       p{
         width:700px;
         text-Align:center;
+        @include mobile {
+          width: 100%; 
+          padding: 0 10px; 
+        }
       }
-      @media (max-width: 600px) {
-        p {
-            width: 100%; 
-            padding: 0 10px;         }
-    }
+     
 
       button {
         width: 300px;
