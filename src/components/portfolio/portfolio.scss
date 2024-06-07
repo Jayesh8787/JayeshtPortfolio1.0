@@ -53,6 +53,7 @@
         @include mobile {
           width: 100%;
           max-height: 300px;
+          max-width: 400px;
           //width: 100%;
         }
 
@@ -71,14 +72,12 @@
           color: transparent; 
 
           @include mobile {
-            object-fit: contain;
-            height: 300px;
-            weight:300px;
+            //object-fit: contain;
+            max-width: 400px;
+           
           }
         }
-
-
-      
+   
 
 
 
@@ -92,7 +91,7 @@
 
         @include mobile {
           transform: none !important;
-          padding: 10px;
+         // padding: 10px;
           align-items: center;
           text-align: center;
         }
@@ -111,6 +110,7 @@
           -webkit-text-fill-color: transparent;
           background-clip: text; 
           color: transparent; 
+         
       }
       
 
