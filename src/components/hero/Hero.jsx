@@ -82,15 +82,21 @@ const Hero = () => {
             </button>
             </motion.a>))}
 
-        </motion.div>
+              
+          
 
-          <motion.img
+        </motion.div>
+         <motion.div>
+         <motion.img
             variants={textVariants}
             animate="scrollButton"
             src="/scroll.png"
             alt=""
           />
+          </motion.div>     
+        
         </motion.div>
+        
       </div>
       <motion.div
         className="slidingTextContainer"
@@ -102,11 +108,11 @@ const Hero = () => {
       </motion.div>
       <div className="model-container">
         <model-viewer
-          src="/comuter.glb"
+          src="/public/comuter.glb"
           alt="A 3D model"
           auto-rotate
           //  camera-controls
-          style={{ width: '100%', height: '120%' }}
+          style={{ width: '100%', height: '100%' }}
         ></model-viewer>
       </div>
 
